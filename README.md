@@ -21,7 +21,7 @@ curl https://raw.githubusercontent.com/cedricroijakkers/linux-windows-deadkeys/m
 If you don't like how some dead keys are working now, you are of course free to modify them to your liking. Just open the file `~/.XCompose` in your favourite editor, and change anything you want. On each line, the file expects an entry like the following:
 
 ```
-<first (dead) key> <second key> : "resulting characters"
+<first (dead) key> <second key> : "resulting character(s)"
 ```
 
 So if you want the keystroke `'` + `c` to result in the character `ć`, look for the line:
@@ -36,7 +36,7 @@ And replace it with:
 <dead_acute> <c> : "ć"
 ```
 
-Or any other character of your liking. Save and close the file, and re-log in to your desktop environment.
+Or any other character of your liking. Don't forget to escape double quotes if necessary. Save and close the file, and re-log in to your desktop environment.
 
 ## Changelog
 
