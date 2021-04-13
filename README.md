@@ -10,6 +10,12 @@ The behaviour of dead keys in Linux is slightly different than in Windows. If yo
 
 All you need to do is download the file `XCompose` from this repository, and save it as `~/.XCompose` (i.e. in your home directory) and log out and back in from your desktop environment (i.e. Gnome).
 
+Or, in one command:
+
+```sh
+curl https://raw.githubusercontent.com/cedricroijakkers/linux-windows-deadkeys/main/XCompose > ~/.XCompose
+```
+
 ## Customisations
 
 If you don't like how some dead keys are working now, you are of course free to modify them to your liking. Just open the file `~/.XCompose` in your favourite editor, and change anything you want. On each line, the file expects an entry like the following:
