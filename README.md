@@ -37,3 +37,7 @@ And replace it with:
 ```
 
 Or any other character of your liking. Save and close the file, and re-log in to your desktop environment.
+
+## Changelog
+
+See: https://github.com/cedricroijakkers/linux-windows-deadkeys/blob/main/CHANGELOG.md
